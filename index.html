@@ -275,6 +275,22 @@
 				top: 53px;
 				text-align: center;
 			}
+			.search .buttons input[type="submit"] {
+				background-color: #f8f9fa;
+				border: 1px solid #f8f9fa;
+				border-radius: 4px;
+				color: #3c4043;
+				font-family: arial, sans-serif;
+				font-size: 14px;
+				margin: 11px 4px;
+				padding: 0 16px;
+				line-height: 27px;
+				height: 36px;
+				min-width: 54px;
+				text-align: center;
+				cursor: pointer;
+				user-select: none;
+			}
 		</style>
 	</head>
 	<body>
@@ -367,7 +383,12 @@
 								<div class="keyboard-icon">
 									<span class="icon"></span>
 								</div>
-								<div class="voice-search">
+								<div
+									class="voice-search"
+									aria-labelledby="Search by voice"
+									role="button"
+									tabindex="0"
+								>
 									<svg
 										class="HPVvwb"
 										focusable="false"
