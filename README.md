@@ -1,6 +1,9 @@
-# Google Search Homepage Clone
-#### **Google Search Homepage** clone built with **Html** + **Css**.
-[Online Preview](https://www.yunusemrejs.com/projects/clone-google/index.html "Google Search Homepage")
+<h1 align="center"> Google Search Homepage Clone </h1>
+
+<div align="center">
+  <a href="https://www.yunusemrejs.com/projects/clone-google/index.html">Live Demo</a> 
+</div>
+<hr>
 
 ## Introduction
 Cloning something that already exists is the best way to get better at frontend development. That's why I built a clone of the Google Search Homepage.
