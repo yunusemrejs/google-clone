@@ -1,5 +1,7 @@
-# google-homepage
-Google Search Homepage Clone with Html+CSS 
+# Google Search Homepage Clone
+**Google Search Homepage** clone built with **Html** + **Css**.
+
+[Online Preview](https://www.yunusemrejs.com/projects/clone-google/index.html "Google's Homepage")
 
 # Final PC Result
 <div align="center" style="width:100%">
