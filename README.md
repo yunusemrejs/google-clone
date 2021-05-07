@@ -8,5 +8,5 @@ Google Search Homepage Clone with Html+CSS
 
 # Final Mobile Result
 <div align="center" style="width:100%">
-<img align="center" style="width:100%" src="/static/img/mobile.png"> 
+<img align="center" style="width:100%" src="/static/img/mobile.jpeg"> 
 </div>
