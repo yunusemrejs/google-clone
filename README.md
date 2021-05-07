@@ -1,4 +1,4 @@
-<h1 align="center"> Google Search Homepage Clone </h1>
+<img align="center" src="/static/img/Banner.png">
 
 <div align="center">
   <a href="https://www.yunusemrejs.com/projects/clone-google/index.html">Live Demo</a> 
