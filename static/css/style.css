@@ -382,14 +382,16 @@ a:hover {
 	width: 20px;
 	z-index: 5;
 }
-.search-input:focus + .visible-popup {
+.search-input:focus-within .visible-popup {
 	display: flex;
 	flex-direction: column;
 }
+/*
 #search-input:valid ~ .visible-popup {
 	display: flex;
 	flex-direction: column;
 }
+*/
 .popup-fix-left {
 	visibility: hidden;
 	position: absolute;
