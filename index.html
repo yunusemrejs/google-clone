@@ -69,7 +69,7 @@
 				<img src="./static/img/logo.png" alt="Google" width="272" height="92" />
 			</div>
 			<div class="search">
-				<form action="/search" method="get">
+				<form action="/search" method="get" autocomplete="off">
 					<div class="search-container">
 						<div class="search-bar">
 							<div class="search-bar-padding">
@@ -340,21 +340,12 @@
 			</footer>
 		</div>
 		<script type="text/javascript">
-			window.onkeyup = inputCheck;
 			document
 				.getElementById("clear-button")
 				.addEventListener("click", function () {
 					document.getElementById("search-input").value = "";
 					this.style.visibility = "hidden";
 				});
-			function inputCheck() {
-				var inputValue = document.getElementById("search-input").value;
-				if (inputValue.value != "") {
-					document.getElementById("clear-button").style.visibility = "visible";
-				} else {
-					document.getElementById("clear-button").style.visibility = "hidden";
-				}
-			}
 		</script>
 	</body>
 </html>

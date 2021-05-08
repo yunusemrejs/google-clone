@@ -231,9 +231,9 @@ a:hover {
 	margin: 0 auto;
 }
 .search-bar:hover {
-	-webkit-box-shadow: 0px 0px 20px -12px #969696;
-	-moz-box-shadow: 0px 0px 20px -12px #969696;
-	box-shadow: 0px 0px 20px -12px #969696;
+	background-color: #fff;
+	box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+	border-color: rgba(223, 225, 229, 0);
 }
 .search-container .search-bar .search-bar-padding {
 	display: flex;
@@ -300,8 +300,8 @@ a:hover {
 }
 .search-suggestion {
 	display: none;
-	width: calc(100% - 2px);
-	left: 1px;
+	width: 100%;
+	left: 0px;
 	max-width: 584px;
 	position: absolute;
 	top: 25px;
@@ -385,6 +385,12 @@ a:hover {
 .search-input:focus-within .visible-popup {
 	display: flex;
 	flex-direction: column;
+}
+#search-input:not(:invalid) + .clear-button {
+	visibility: visible;
+}
+input:not(:valid) ~ .clear-button {
+	display: none;
 }
 /*
 #search-input:valid ~ .visible-popup {
