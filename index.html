@@ -10,7 +10,6 @@
 		/>
 		<link rel="stylesheet" href="./static/css/style.css" />
 		<title>Google</title>
-		<style></style>
 	</head>
 	<body>
 		<div class="container">
@@ -89,7 +88,6 @@
 									<input
 										maxlength="2048"
 										type="text"
-										list="search-suggestion"
 										id="search-input"
 										autofocus=""
 										tt-title="Ara"
@@ -189,7 +187,7 @@
 									</div>
 								</div>
 								<div class="search-tools">
-									<div class="clear-button">
+									<div class="clear-button" id="clear-button">
 										<svg
 											focusable="false"
 											xmlns="http://www.w3.org/2000/svg"
@@ -292,7 +290,7 @@
 						</a>
 						<div class="settings">
 							<button id="settings-btn">Settings</button>
-							<ul class="settings-menu" role="menu">
+							<ul class="settings-menu">
 								<li>
 									<a
 										class="EzVRq"
@@ -355,5 +353,22 @@
 				</div>
 			</footer>
 		</div>
+		<script type="text/javascript">
+			window.onkeyup = inputCheck;
+			document
+				.getElementById("clear-button")
+				.addEventListener("click", function () {
+					document.getElementById("search-input").value = "";
+					this.style.visibility = "hidden";
+				});
+			function inputCheck() {
+				var inputValue = document.getElementById("search-input").value;
+				if (inputValue.value != "") {
+					document.getElementById("clear-button").style.visibility = "visible";
+				} else {
+					document.getElementById("clear-button").style.visibility = "hidden";
+				}
+			}
+		</script>
 	</body>
 </html>

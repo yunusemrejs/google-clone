@@ -421,6 +421,7 @@ a:hover {
 	visibility: hidden;
 	height: 24px;
 	width: 24px;
+	cursor: pointer;
 	z-index: 5;
 }
 .clear-button svg {
