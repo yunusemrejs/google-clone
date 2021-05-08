@@ -382,7 +382,7 @@ a:hover {
 	width: 20px;
 	z-index: 5;
 }
-#search-input:invalid:focus-within ~ .visible-popup {
+#search-input:invalid:focus ~ .visible-popup {
 	display: flex;
 	flex-direction: column;
 }
