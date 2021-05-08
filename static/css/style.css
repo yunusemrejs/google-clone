@@ -382,11 +382,19 @@ a:hover {
 	width: 20px;
 	z-index: 5;
 }
+.search-bar:focus-within {
+	background-color: #fff;
+	box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+	border-color: rgba(223, 225, 229, 0);
+}
 .search-input:focus-within .visible-popup {
 	display: flex;
 	flex-direction: column;
 }
-#search-input:not(:invalid) + .clear-button {
+#search-input:valid {
+	flex: 80%;
+}
+#search-input:valid + .clear-button {
 	visibility: visible;
 }
 input:not(:valid) ~ .clear-button {
@@ -426,6 +434,8 @@ input:not(:valid) ~ .clear-button {
 	flex-direction: row;
 }
 .clear-button {
+	display: flex;
+	margin: auto;
 	visibility: hidden;
 	height: 24px;
 	width: 24px;
