@@ -1,7 +1,7 @@
 <img align="center" src="/static/img/Banner.png">
 <hr>
 <div align="center">
-  <a href="https://www.yunusemrejs.com/projects/clone-google/index.html">Live Demo</a> 
+  <a href="https://www.yunusemrejs.com/google-homepage/">Live Demo</a> 
 </div>
 
 ## Introduction
