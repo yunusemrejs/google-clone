@@ -9,7 +9,9 @@ Cloning something that already exists is the best way to get better at frontend 
 
 # Comparison
 
-<img align"center" src="/static/img/comparison.gif> 
+<div align="center" style="width:100%">
+<img align="center" style="width:100%" src="/static/img/comparison.gif"> 
+</div>
 
 # Pc View
 <div align="center" style="width:100%">
